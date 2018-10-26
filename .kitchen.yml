@@ -1,0 +1,19 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  product_name: chefdk
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-7
+
+suites:
+  - name: test
+    run_list:
+    verifier:
+      inspec_tests:
+        - test/integration/default
