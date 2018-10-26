@@ -4,7 +4,7 @@ require 'chefspec'
 require 'chefspec/berkshelf'
 
 SUPPORTED_PLATFORMS = {
-  'centos' => ['7']
+  'centos' => %w(6 7)
 }.freeze
 
 RSpec.configure do |config|

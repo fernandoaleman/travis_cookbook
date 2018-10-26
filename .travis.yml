@@ -18,6 +18,7 @@ services: docker
 
 env:
   matrix:
+    - INSTANCE=test-centos-6
     - INSTANCE=test-centos-7
 
 before_script:

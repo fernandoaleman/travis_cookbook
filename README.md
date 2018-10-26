@@ -10,6 +10,7 @@ TODO: Enter one line description of the cookbook here.
 
 The following platforms are supported and tested with Test Kitchen:
 
+- CentOS 6
 - CentOS 7
 
 Other RHEL family distributions are assumed to work.
